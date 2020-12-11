@@ -164,10 +164,15 @@ Use the getReviewsByRating function below to do the following:
   ]
 */
 
- function getReviewByRating(/* code here */) {
-    /* code here */
+ function getReviewByRating(array, number) {
+    for(let i = 0; i < getReviewByRating; i++){
+      if (array[i]===array[number].rating){
+          return array.rating;
+      }
+    }
+    return getReviewByRating;
   }
-
+console.log(getReviewByRating(reviews, 4));
   
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪💪💪💪💪   
 Use the getLongReviews function below to do the following:
@@ -182,9 +187,9 @@ Use the getLongReviews function below to do the following:
   ]
 */
 
-function getLongReviews(array) {
-    /* code here */
-  }
+function getLongReviews() {
+    
+      }
   
 
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 3: 💪💪💪💪💪💪💪💪💪💪 
