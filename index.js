@@ -166,7 +166,7 @@ Use the getReviewsByRating function below to do the following:
 
  function getReviewByRating(array, number) {
     for(let i = 0; i < getReviewByRating; i++){
-      if (array[i]===array[number].rating){
+      if (array[i]===array.rating.includes(number)){
           return array.rating;
       }
     }
